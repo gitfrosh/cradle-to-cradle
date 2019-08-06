@@ -1,33 +1,32 @@
-.App {
+html {
+  min-height: 100%; /* make sure it is at least as tall as the viewport */
+  position: relative;
+}
+body {
+  height: 100%; /* force the BODY element to match the height of the HTML element */
+  font-family: "Muli", sans-serif;
+}
+.highlight {
+  font-family: "Merriweather", serif;
+  color: #ed1250;
+}
+#nav-buttons {
+  padding-top: 3.5rem;
+}
+#footer {
+  height: 10vh;
+  background: #36622b;
+  padding: 1.3rem 5rem 5rem 5rem;
+}
+#nav {
+  position: relative;
+  height: 20vh;
+  background: #fbfad3;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#content {
+  color: #36622b;
+  padding: 5rem 5rem 5rem 5rem;
+  min-height: 70vh;
+  background: #c6e377;
 }
