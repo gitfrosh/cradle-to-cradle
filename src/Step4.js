@@ -1,15 +1,15 @@
 import React from "react";
 
-function Step1() {
+function Step4() {
   return (
     <section id="content" class="section">
-      <span class="highlight">Waste</span> is a human invention. No other
-      species in the world is acting as little intelligently as mankind and
-      produces so much waste. Waste management was the answer to a{" "}
-      <span class="highlight"> catastrophic product design</span>, which
-      privatized profit and socialized risk.
+      Is the C2C principle applicable to the{" "}
+      <span class="highlight">digital world</span>? Yes, because digital
+      resources (digital knowledge and cultural artifacts) are maintained
+      sustainably, if their use for the human society is fulfilled also for
+      <span class="highlight">future generations</span>.
     </section>
   );
 }
 
-export default Step1;
+export default Step4;

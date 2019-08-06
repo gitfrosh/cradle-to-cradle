@@ -9,6 +9,7 @@ body {
 .highlight {
   font-family: "Merriweather", serif;
   color: #ed1250;
+  font-weight: bolder;
 }
 #nav-buttons {
   padding-top: 3.5rem;
