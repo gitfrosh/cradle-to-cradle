@@ -6,7 +6,7 @@ function Step4() {
       Is the C2C principle applicable to the{" "}
       <span class="highlight">digital world</span>? Yes, because digital
       resources (digital knowledge and cultural artifacts) are maintained
-      sustainably, if their use for the human society is fulfilled also for
+      sustainably, if their use for the human society is fulfilled also for{" "}
       <span class="highlight">future generations</span>.
     </section>
   );

@@ -16,10 +16,10 @@ function App() {
         return <Step1 />;
       case 2:
         return <Step2 />;
-        case 3:
-          return <Step3 />;
-          case 4:
-            return <Step4 />;
+      case 3:
+        return <Step3 />;
+      case 4:
+        return <Step4 />;
       default:
       // code block
     }
@@ -31,14 +31,16 @@ function App() {
       <section id="nav" class="section">
         <div id="nav-buttons">
           <button
+            disabled={count !== 0 ? false : true}
             onClick={() => setCount(prevCount => prevCount - 1)}
-            class="circular ui icon button"
+            class="ui green massive circular ui icon button"
           >
             <i class="icon angle left" />
-          </button>
+          </button>{" "}
           <button
+            disabled={count !== 4 ? false : true}
             onClick={() => setCount(prevCount => prevCount + 1)}
-            class="circular ui icon button"
+            class="ui green massive circular ui icon button"
           >
             <i class="icon angle right" />
           </button>
@@ -47,7 +49,8 @@ function App() {
       {getStep(count)}
 
       <section id="footer" class="section">
-        <p>Cradle2Cradle</p>
+        <em>What is the Cradle-to-Cradle philosophy?</em> Made by{" "}
+        <a href="https://rike.dev">rike.dev</a>.{" "}
       </section>
     </div>
   );
