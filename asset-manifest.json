@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cradle-to-cradle/static/css/main.f3fbb79e.chunk.css",
+    "main.js": "/cradle-to-cradle/static/js/main.0ad9e0c5.chunk.js",
+    "main.js.map": "/cradle-to-cradle/static/js/main.0ad9e0c5.chunk.js.map",
+    "runtime~main.js": "/cradle-to-cradle/static/js/runtime~main.156a51f6.js",
+    "runtime~main.js.map": "/cradle-to-cradle/static/js/runtime~main.156a51f6.js.map",
+    "static/js/2.d042e1ad.chunk.js": "/cradle-to-cradle/static/js/2.d042e1ad.chunk.js",
+    "static/js/2.d042e1ad.chunk.js.map": "/cradle-to-cradle/static/js/2.d042e1ad.chunk.js.map",
+    "index.html": "/cradle-to-cradle/index.html",
+    "precache-manifest.1a41fd7aaea0a876771d5379a91a902c.js": "/cradle-to-cradle/precache-manifest.1a41fd7aaea0a876771d5379a91a902c.js",
+    "service-worker.js": "/cradle-to-cradle/service-worker.js",
+    "static/css/main.f3fbb79e.chunk.css.map": "/cradle-to-cradle/static/css/main.f3fbb79e.chunk.css.map"
+  }
+}
