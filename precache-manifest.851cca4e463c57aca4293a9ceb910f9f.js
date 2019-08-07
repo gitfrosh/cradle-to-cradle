@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94c772884d0db303e5f3e1f7d3eb25b3",
+    "revision": "9ffb08fef42d05599b971508ac36e0b6",
     "url": "/cradle-to-cradle/index.html"
   },
   {
-    "revision": "56fb1ecdc16453a59b05",
+    "revision": "e89051a6357b2f1fa37c",
     "url": "/cradle-to-cradle/static/css/main.f3fbb79e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cradle-to-cradle/static/js/2.d042e1ad.chunk.js"
   },
   {
-    "revision": "56fb1ecdc16453a59b05",
-    "url": "/cradle-to-cradle/static/js/main.0ad9e0c5.chunk.js"
+    "revision": "e89051a6357b2f1fa37c",
+    "url": "/cradle-to-cradle/static/js/main.e7195bcf.chunk.js"
   },
   {
     "revision": "e994100502cf198aedd1",

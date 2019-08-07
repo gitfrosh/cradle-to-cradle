@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cradle-to-cradle/precache-manifest.3ebec7617e3035bd90ebe6b187cf496a.js"
+  "/cradle-to-cradle/precache-manifest.851cca4e463c57aca4293a9ceb910f9f.js"
 );
 
 self.addEventListener('message', (event) => {
