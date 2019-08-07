@@ -5,6 +5,8 @@ import Step1 from "./Step1";
 import Step2 from "./Step2";
 import Step4 from "./Step4";
 import Step3 from "./Step3";
+import Step5 from "./Step5";
+import Step6 from "./Step6";
 
 function App() {
   function getStep() {
@@ -20,6 +22,10 @@ function App() {
         return <Step3 />;
       case 4:
         return <Step4 />;
+        case 5:
+          return <Step5 />;
+          case 6:
+            return <Step6 />;
       default:
       // code block
     }
@@ -38,7 +44,7 @@ function App() {
             <i className="icon angle left" />
           </button>{" "}
           <button
-            disabled={count !== 4 ? false : true}
+            disabled={count !== 6 ? false : true}
             onClick={() => setCount(prevCount => prevCount + 1)}
             className="ui green massive circular ui icon button"
           >
