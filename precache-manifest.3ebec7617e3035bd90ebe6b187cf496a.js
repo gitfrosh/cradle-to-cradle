@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8b2f419fff3dd968b1a9539068b8aee7",
+    "revision": "94c772884d0db303e5f3e1f7d3eb25b3",
     "url": "/cradle-to-cradle/index.html"
   },
   {
