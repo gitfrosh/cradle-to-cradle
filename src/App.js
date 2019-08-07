@@ -28,27 +28,27 @@ function App() {
 
   return (
     <div>
-      <section id="nav" class="section">
+      <section id="nav" className="section">
         <div id="nav-buttons">
           <button
             disabled={count !== 0 ? false : true}
             onClick={() => setCount(prevCount => prevCount - 1)}
-            class="ui green massive circular ui icon button"
+            className="ui green massive circular ui icon button"
           >
-            <i class="icon angle left" />
+            <i className="icon angle left" />
           </button>{" "}
           <button
             disabled={count !== 4 ? false : true}
             onClick={() => setCount(prevCount => prevCount + 1)}
-            class="ui green massive circular ui icon button"
+            className="ui green massive circular ui icon button"
           >
-            <i class="icon angle right" />
+            <i className="icon angle right" />
           </button>
         </div>{" "}
       </section>
       {getStep(count)}
 
-      <section id="footer" class="section">
+      <section id="footer" className="section">
         <em>What is the Cradle-to-Cradle philosophy?</em> Made by{" "}
         <a href="https://rike.dev">rike.dev</a>.{" "}
       </section>
